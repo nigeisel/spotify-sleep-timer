@@ -12,7 +12,7 @@ var cookieParser = require('cookie-parser');
 
 var client_secret = fs.readFileSync('CLIENT_SECRET', 'utf8').replace(/\s/g, '');
 var client_id = 'ff11a7ddab394e53ac335e9db9d48bbb'; // Your client id
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'http://192.168.2.103:8888/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
